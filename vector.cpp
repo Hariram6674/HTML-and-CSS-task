@@ -1,5 +1,5 @@
 //code for numbers
-
+#include <bits/stdc++.h>
 #include<iostream>
 #include<vector>
 using namespace std;
@@ -60,6 +60,12 @@ ostream& operator<<(ostream& out,point &p)
 {
     out<<p.x<<" "<<p.y<<endl;
 }
+void fun()
+{
+    for (int i=0; i<10; i++)
+    {
+    }
+}
 int main()
 {
     vector<point> elements;
@@ -87,4 +93,12 @@ int main()
     {
         cout<<elements[i]<<" ";
     }
+    clock_t start, end;
+    start = clock();
+    fun();
+    end = clock();
+    double time_taken = double(end - start) / double(CLOCKS_PER_SEC);    // for recording time taken
+    cout << "Time taken by program is : " << fixed 
+         << time_taken << setprecision(5);
+    cout << " sec " << endl;
 }
