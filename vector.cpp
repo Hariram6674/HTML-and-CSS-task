@@ -1,4 +1,5 @@
-code for numbers
+//code for numbers
+
 #include<iostream>
 #include<vector>
 using namespace std;
@@ -29,7 +30,8 @@ int main()
     }
 }
 
-code for points
+//code for 2D points
+
 #include<iostream>
 using namespace std;
 #include<vector>
