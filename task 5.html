@@ -1,0 +1,90 @@
+<style>
+    .no-outline{
+        border: none;
+    }
+    table,td {
+    border: 1px solid black ;
+    border-collapse: collapse;
+    }
+    select:required:invalid {
+    color: gray;
+    }
+    option[value=""][disabled] {
+    display: none;
+    }
+    option {
+    color: black;
+    }
+    button{
+        margin-top: 10px;
+        margin-left: 300px;
+    }
+</style>
+<h1 style="text-align: center;">Registration Form</h1>
+<table border="2" align="center">
+    <tr>
+        <th align="center">First Name</th>
+        <td><input class="no-outline" type="text"></td>
+    </tr>
+    <tr>
+        <th align="center">Last Name</th>
+        <td><input type="text" class="no-outline"></td>
+    </tr>
+    <tr>
+        <th align="center">Email</th>
+        <td><input type="text" class="no-outline"></td>
+    </tr>
+    <tr>
+        <th align="center">Password</th>
+        <td><input type="password" class="no-outline"></td>
+    </tr>
+    <tr>
+        <th align="center">Re Password</th><br>
+        <td><input type="password" class="no-outline"></td>
+    </tr>
+    <tr>
+        <th align="center">Gender</th>
+        <td><input type="checkbox" class="no-outline">Male<br>
+            <input type="checkbox" class="no-outline">Female</td>
+    </tr>
+    <tr>
+        <th align="center">Age</th>
+        <td><input type="number" class="no-outline"></td>
+    </tr>
+    <tr>
+        <th align="center">Phone Number</th>
+        <td><input type="number" class="no-outline"></td>
+    </tr>
+    <tr>
+        <th align="center">Address</th>
+        <td><textarea name="Address" class="no-outline" cols="40" rows="8"></textarea></td>
+    </tr>
+    <tr>
+        <th align="center">State</th>
+        <td><input type="text" class="no-outline"></td>
+    </tr>
+    <tr>
+        <th align="center">Country</th>
+        <td><select required>
+            <option value="" disabled selected>Choose a Country</option>
+            <option value="UAE">UAE</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="England">England</option>
+            <option value="Africa">Africa</option>
+        </select></td>
+    </tr>
+    <tr>
+        <th align="center">Languages Known</th>
+        <td><input type="checkbox" class="no-outline">English 
+        <input type="checkbox" class="no-outline">Kannada
+        <input type="checkbox" class="no-outline">Telugu
+        <input type="checkbox" class="no-outline">Hindi</td>
+    </tr>
+    <td colspan="2"><input type="checkbox" checked>Hereby I declare all the given details are true</td>
+    </tr>
+    <tr>
+        <td colspan="2" align="right">Log in to <a href="https://codemithra.com">Ethnus</a> website</td>
+    </tr>
+</table>
+<button type="submit">Register</button>
