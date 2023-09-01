@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(163, 0, 153);
+    align-items: center;
+    margin-top: 20%;
+}
+table{
+    padding:5%;
+    background-color: rgb(158, 4, 89);
+    border: 1px transparent ;
+}
+th,td{
+    color: white;
+    margin-bottom: 10%;
+}
+th{
+    float: left;
+}
+.btnarea{
+    text-align: center;
+}
+button{
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}

@@ -1,0 +1,37 @@
+.vertical{
+    width:200px;
+    display: flexbox;
+    float: left;
+    margin-right: 50px;
+}
+.vertical a{
+    background-color: lightblue; 
+    color: blue; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
+}
+.vertical a.active{
+    background-color: orange;
+    color: white;
+}
+.horizontal{
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+}
+.horizontal a{
+    display: block;
+    background-color: rgb(197, 191, 191);
+    color:blue;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    float: left;
+    border-right: 1px solid blue;
+}
+.horizontal .active{
+    background-color: rgb(102, 99, 99);
+    color: white;
+}
+
